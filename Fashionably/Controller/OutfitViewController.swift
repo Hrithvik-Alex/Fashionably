@@ -16,6 +16,11 @@ class OutfitViewController: UIViewController {
     var clothes : Results<Clothing>!
     
     @IBOutlet weak var firstImage: UIImageView!
+    @IBOutlet weak var secondImage: UIImageView!
+    
+    @IBOutlet weak var thirdImage: UIImageView!
+    @IBOutlet weak var fourthImage: UIImageView!
+    
     
     var casual_images_shoes: [UIImages] = ["CasualShoes1.jpg", "CasualShoes3.jpg", "CasualShoes3.jpg"]
     
@@ -44,61 +49,51 @@ class OutfitViewController: UIViewController {
     @IBAction func firstRightPressed(_ sender: UIButton) {
         i+=1
         firstImage.image = casual_images_top[i]
+        
+        
+        
+    }
+    
+    
+    @IBAction func leftButton1(_ sender: UIButton) {
+        i-=1
+        firstImage.image = casual_images_top[i]
+    }
+    
+    @IBAction func leftButton2(_ sender: Any) {
+        i+=1
         secondImage.image =  casual_images_pants[i]
+    }
+    
+    
+    @IBAction func rightButton2(_ sender: Any) {
+        i-=1
+        secondImage.image =  casual_images_pants[i]
+    }
+    
+    
+    @IBAction func leftButton3(_ sender: Any) {
+        i+=1
         thirdImage.image =  casual_images_shoes[i]
+    }
+    
+    @IBAction func rightButton3(_ sender: Any) {
+        i-=1
+        thirdImage.image =  casual_images_shoes[i]
+    }
+    
+    
+    @IBAction func leftButton4(_ sender: Any) {
+        i+=1
         fourthImage.image =  casual_images_outer[i]
     }
     
     
-    @IBAction func firstLeftPressed(_ sender: UIButton) {
-        
+    @IBAction func rightButton4(_ sender: Any) {
+        i-=1
+        fourthImage.image =  casual_images_outer[i]
     }
     
-    
-    @IBAction func secondRightPressed(_ sender: UIButton) {
-        
-    }
-    
-    
-    @IBAction func secondLeftPressed(_ sender: UIButton) {
-        
-    }
-    
-    
-    @IBAction func thirdRightPressed(_ sender: UIButton) {
-        
-    }
-    
-    
-    @IBAction func thirdLeftPressed(_ sender: UIButton) {
-        
-    }
-    
-    
-    @IBAction func fourthRightPressed(_ sender: UIButton) {
-        
-    }
-    
-    
-    @IBAction func fourthLeftPressed(_ sender: UIButton) {
-        
-    }
 }
-
-let UpperBodyBusiness: [UIImage] = []
-
-let LowerBodyBusiness: [UIImage] = []
-
-let OuterWearBusiness: [UIImage]  = []
-
-let ShoesBusiness: [UIImage] = []
-
-let UpperBodyCasual: [UIImage]  =  []
-
-let LowerBodyCasual:  [UIImage] =  []
-
-let OuterWearCasual: [UIImage]  = []
-
-let ShoesCasual: [UIImage] = []
 
 

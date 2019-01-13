@@ -432,6 +432,13 @@
                                     <outletCollection property="gestureRecognizers" destination="F3Q-pO-ybC" appends="YES" id="Xsk-sd-LkA"/>
                                 </connections>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rgu-9M-app">
+                                <rect key="frame" x="37" y="643" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="leftButton4:" destination="Rdh-i1-vgg" eventType="touchUpInside" id="cMD-g3-zFD"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I20-CN-ha1">
                                 <rect key="frame" x="48" y="44" width="22" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -464,6 +471,9 @@
                                 <state key="normal" title="Button">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="leftButton1:" destination="Rdh-i1-vgg" eventType="touchUpInside" id="oh5-lh-QV8"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ulp-Bt-04h">
                                 <rect key="frame" x="336" y="186" width="46" height="30"/>
@@ -481,6 +491,9 @@
                                 <state key="normal" title="Button">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="leftButton2:" destination="Rdh-i1-vgg" eventType="touchUpInside" id="mSb-Rq-lod"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1O4-ed-vK7">
                                 <rect key="frame" x="342" y="342" width="46" height="30"/>
@@ -488,11 +501,30 @@
                                 <state key="normal" title="Button">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="rightButton2:" destination="Rdh-i1-vgg" eventType="touchUpInside" id="7at-c2-PHz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hVz-D3-udo">
-                                <rect key="frame" x="29" y="494" width="46" height="30"/>
+                                <rect key="frame" x="37" y="494" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="leftButton3:" destination="Rdh-i1-vgg" eventType="touchUpInside" id="QQ2-Mh-Q0i"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xyi-tp-K99">
+                                <rect key="frame" x="336" y="494" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="rightButton3:" destination="Rdh-i1-vgg" eventType="touchUpInside" id="skk-Qa-pTm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xvz-Of-fUe">
+                                <rect key="frame" x="344" y="648" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="rightButton4:" destination="Rdh-i1-vgg" eventType="touchUpInside" id="OUr-eo-3dH"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -500,6 +532,9 @@
                     </view>
                     <connections>
                         <outlet property="firstImage" destination="iv7-va-1m9" id="Jhx-HY-kqf"/>
+                        <outlet property="image2" destination="Vtp-yA-3p5" id="6dp-6Z-vHc"/>
+                        <outlet property="image3" destination="tYy-LW-aC2" id="UWL-3R-nBN"/>
+                        <outlet property="image4" destination="1WG-Dk-Ab0" id="jUS-s4-Iq5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Skp-zh-mZl" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -649,9 +684,10 @@
         <image name="UI 09" width="1242.239990234375" height="2208"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="VlS-Fb-pAa"/>
         <segue reference="feM-Dr-q3c"/>
         <segue reference="cHF-ap-kIN"/>
-        <segue reference="xbB-7s-hPd"/>
+        <segue reference="F8D-aA-Ajk"/>
         <segue reference="4dY-el-gvt"/>
         <segue reference="2vn-jf-fOx"/>
     </inferredMetricsTieBreakers>
