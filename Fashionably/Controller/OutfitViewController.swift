@@ -80,43 +80,20 @@ class OutfitViewController: UIViewController {
     }
 }
 
+let UpperBodyBusiness: [UIImage] = []
 
+let LowerBodyBusiness: [UIImage] = []
 
-func filter1(ranger: Array<Clothing>, storer: Array<UIImage>, x:  int){
-    for  i in range(ranger) {
-        if ranger.formality <= 0.5 {
-            storer.append(ranger[i].image)
-        }
-    }
-    
-}
+let OuterWearBusiness: [UIImage]  = []
 
-//Creating a list  of UpperBodyImages to display
-//let UpperBodyClosetClasses: [Object] = []
+let ShoesBusiness: [UIImage] = []
 
-let UpperBodyImagesV1: [UIImage] = []
+let UpperBodyCasual: [UIImage]  =  []
 
-filter1(UpperBodyClosetClasses, UpperBodyImagesV1, 0.5)
+let LowerBodyCasual:  [UIImage] =  []
 
-//Creating a list of LowerBodyImages to display
-//let LowerBodyClosetClasses: [Object] = []
+let OuterWearCasual: [UIImage]  = []
 
-
-let LowerBodyImagesV1: [UIImage] = []
-
-filter1(LowerBodyClosetClasses, LowerBodyImagesV1, 0.5)
-
-//Creating a list  of OuterWearImages to display
-//let OuterWearClosetClasses: [Object] = []
-
-let OuterWearImagesV1: [UIImage] = []
-filter1(OuterWearClosetClasses, OuterWearImagesV1, 0.5)
-
-
-//Creating a list  of ShoesImages to display
-//let ShoesClosetClasses: [Object] = []
-
-let ShoesImagesV1: [UIImage] = []
-filter1(ShoesClosetClasses, ShoesImagesV1, 0.5)
+let ShoesCasual: [UIImage] = []
 
 
