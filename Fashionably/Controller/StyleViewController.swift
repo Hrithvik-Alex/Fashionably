@@ -46,9 +46,6 @@ class ViewController: NSViewController {
     @IBAction func printHello (sender: AnyObject) {
         strLabel.stringValue = "Hello"
     }
-
-
-    
     
     
 

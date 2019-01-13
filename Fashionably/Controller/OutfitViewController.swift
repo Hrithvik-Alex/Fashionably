@@ -15,30 +15,27 @@ class OutfitViewController: UIViewController {
     
     var clothes : Results<Clothing>!
     
+    @IBOutlet weak var firstImage: UIImageView!
     
-    @IBOutlet weak var image3: UIImageView!
+
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         loadClothes()
-        photoCircle(image: image3!)
+        firstImage.image = "sweater-2.jpg"
+        secondImage.image = "sweater-2.jpg"
+        thirdImage.image = "sweater-2.jpg"
+        fourthImage.image = "sweater-2.jpg"
 
     }
     
-    func photoCircle(image: UIImageView){
-        image.layer.borderWidth = 1
-        image.layer.masksToBounds = false
-        image.layer.borderColor = UIColor.black.cgColor
-        image.layer.cornerRadius = image.frame.height/2
-        image.clipsToBounds = true
-    }
+    
     
     
     func loadClothes() {
         clothes = realm.objects(Clothing.self)
     }
-    
     
     @IBAction func firstRightPressed(_ sender: UIButton) {
         
