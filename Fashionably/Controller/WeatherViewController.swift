@@ -95,7 +95,6 @@ class WeatherViewController: UIViewController, CLLocationManagerDelegate {
         print(error)
     }
     
-    
 }
 
 

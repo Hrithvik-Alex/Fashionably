@@ -8,11 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1BD825881F871F2A8B1BCB14 /* Pods_Fashionably.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ABA8741411F9C0ED92F1D25 /* Pods_Fashionably.framework */; };
+		63986EC221EB5F4D0062C833 /* beast.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 63986EC121EB5F4D0062C833 /* beast.JPG */; };
 		81103F3A21EB1115001C7BFE /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81103F3921EB1115001C7BFE /* MenuViewController.swift */; };
 		81103F3C21EB13F2001C7BFE /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81103F3B21EB13F2001C7BFE /* WelcomeViewController.swift */; };
 		81103F3E21EB1ED5001C7BFE /* OutfitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81103F3D21EB1ED5001C7BFE /* OutfitViewController.swift */; };
-		81103F4021EB9005001C7BFE /* beast.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 81103F3F21EB9005001C7BFE /* beast.JPG */; };
-		81103F4221EB98A6001C7BFE /* VGG16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 81103F4121EB98A6001C7BFE /* VGG16.mlmodel */; };
 		8157829321EA814F00B2F911 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8157829221EA814F00B2F911 /* AppDelegate.swift */; };
 		8157829521EA814F00B2F911 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8157829421EA814F00B2F911 /* WeatherViewController.swift */; };
 		8157829821EA814F00B2F911 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8157829621EA814F00B2F911 /* Main.storyboard */; };
@@ -20,16 +19,16 @@
 		8157829D21EA815000B2F911 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8157829B21EA815000B2F911 /* LaunchScreen.storyboard */; };
 		815782A821EA8D1400B2F911 /* Clothing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815782A721EA8D1400B2F911 /* Clothing.swift */; };
 		815782AA21EAB66000B2F911 /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815782A921EAB66000B2F911 /* WeatherDataModel.swift */; };
+		EC204C8221EBB6B8000615B0 /* StyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC204C8121EBB6B8000615B0 /* StyleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3A66355F074631ED6DC965F7 /* Pods-Fashionably.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fashionably.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fashionably/Pods-Fashionably.release.xcconfig"; sourceTree = "<group>"; };
 		5A7A9D1657203A6A0C20A377 /* Pods-Fashionably.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fashionably.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fashionably/Pods-Fashionably.debug.xcconfig"; sourceTree = "<group>"; };
+		63986EC121EB5F4D0062C833 /* beast.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beast.JPG; path = ../../Clothing/beast.JPG; sourceTree = "<group>"; };
 		81103F3921EB1115001C7BFE /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		81103F3B21EB13F2001C7BFE /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		81103F3D21EB1ED5001C7BFE /* OutfitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutfitViewController.swift; sourceTree = "<group>"; };
-		81103F3F21EB9005001C7BFE /* beast.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beast.JPG; path = Fashionably/beast.JPG; sourceTree = SOURCE_ROOT; };
-		81103F4121EB98A6001C7BFE /* VGG16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = VGG16.mlmodel; sourceTree = "<group>"; };
 		8157828F21EA814F00B2F911 /* Fashionably.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fashionably.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8157829221EA814F00B2F911 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8157829421EA814F00B2F911 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +39,7 @@
 		815782A721EA8D1400B2F911 /* Clothing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clothing.swift; sourceTree = "<group>"; };
 		815782A921EAB66000B2F911 /* WeatherDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataModel.swift; sourceTree = "<group>"; };
 		8ABA8741411F9C0ED92F1D25 /* Pods_Fashionably.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fashionably.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC204C8121EBB6B8000615B0 /* StyleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 				815782A521EA8CE400B2F911 /* View */,
 				815782A421EA8CCD00B2F911 /* Model */,
 				8157829921EA815000B2F911 /* Assets.xcassets */,
-				81103F4121EB98A6001C7BFE /* VGG16.mlmodel */,
+				63986EC121EB5F4D0062C833 /* beast.JPG */,
 				8157829E21EA815000B2F911 /* Info.plist */,
 			);
 			path = Fashionably;
@@ -96,7 +96,6 @@
 		815782A421EA8CCD00B2F911 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				81103F3F21EB9005001C7BFE /* beast.JPG */,
 				815782A721EA8D1400B2F911 /* Clothing.swift */,
 				815782A921EAB66000B2F911 /* WeatherDataModel.swift */,
 			);
@@ -120,6 +119,7 @@
 				81103F3921EB1115001C7BFE /* MenuViewController.swift */,
 				81103F3B21EB13F2001C7BFE /* WelcomeViewController.swift */,
 				81103F3D21EB1ED5001C7BFE /* OutfitViewController.swift */,
+				EC204C8121EBB6B8000615B0 /* StyleViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -196,7 +196,7 @@
 				8157829D21EA815000B2F911 /* LaunchScreen.storyboard in Resources */,
 				8157829A21EA815000B2F911 /* Assets.xcassets in Resources */,
 				8157829821EA814F00B2F911 /* Main.storyboard in Resources */,
-				81103F4021EB9005001C7BFE /* beast.JPG in Resources */,
+				63986EC221EB5F4D0062C833 /* beast.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,13 +252,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81103F4221EB98A6001C7BFE /* VGG16.mlmodel in Sources */,
 				815782AA21EAB66000B2F911 /* WeatherDataModel.swift in Sources */,
 				81103F3A21EB1115001C7BFE /* MenuViewController.swift in Sources */,
 				8157829521EA814F00B2F911 /* WeatherViewController.swift in Sources */,
 				81103F3C21EB13F2001C7BFE /* WelcomeViewController.swift in Sources */,
 				815782A821EA8D1400B2F911 /* Clothing.swift in Sources */,
 				81103F3E21EB1ED5001C7BFE /* OutfitViewController.swift in Sources */,
+				EC204C8221EBB6B8000615B0 /* StyleViewController.swift in Sources */,
 				8157829321EA814F00B2F911 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,7 +405,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3UR7A598CG;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Fashionably/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -424,7 +424,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3UR7A598CG;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Fashionably/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

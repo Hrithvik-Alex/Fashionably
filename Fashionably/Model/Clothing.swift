@@ -14,20 +14,6 @@ class Clothing: Object {
     @objc dynamic var type : String = ""// Upper body, lower body, feet
     @objc dynamic var warmthRating : Double = 0.0
     @objc dynamic var category : String = "" // trousers, pullovers, coats , etc.
-    @objc dynamic var formalityRating : Double = 0.0
+    @objc dynamic var formality : Double = 0.0
 
 }
-
-let UpperBodyClosetImages: [UIImage] = []
-let UpperBodyClosetClasses: [Object] = []
-
-
-let UpperBodyDisplayImages: [UIImage] = []
-
-
-for  i in range(UpperBodyClosetClasses) {
-    if UpperBodyClosetClasses.warmth <= 0.5 {
-        UpperBodyDisplayImages.append(UpperBodyClosetClasses[i].image)
-    }
-}
-

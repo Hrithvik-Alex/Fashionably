@@ -217,9 +217,10 @@
                                     <outletCollection property="gestureRecognizers" destination="RKN-2T-4xh" appends="YES" id="UzU-8Z-rrE"/>
                                 </connections>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UEI-9m-Rcf">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UEI-9m-Rcf" userLabel="ButtonC" customClass="StyleViewController">
                                 <rect key="frame" x="72" y="419" width="271" height="152"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" label="ButtonC"/>
                                 <state key="normal" title="CASUAL BUTTON">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
@@ -227,7 +228,7 @@
                                     <segue destination="Rdh-i1-vgg" kind="show" id="SZQ-uz-d0U"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1VN-a3-jcX">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1VN-a3-jcX" userLabel="ButtonF">
                                 <rect key="frame" x="72" y="241" width="271" height="152"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="FORMAL BUTTON">
@@ -260,6 +261,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="7Jj-Bm-tnd"/>
+                        <connections>
+                            <outlet property="ButtonC" destination="UEI-9m-Rcf" id="Nnj-3B-f2G"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="13X-eZ-Iah" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -402,18 +406,18 @@
         </scene>
     </scenes>
     <resources>
-        <image name="UI 03" width="5176" height="9200"/>
-        <image name="UI 04" width="5176" height="9200"/>
-        <image name="UI 05" width="5176" height="9201"/>
-        <image name="UI 06" width="5176" height="9200"/>
-        <image name="UI 07" width="5176" height="9200"/>
-        <image name="UI 08" width="5176" height="9200"/>
-        <image name="UI 09" width="5176" height="9200"/>
+        <image name="UI 03" width="1242.239990234375" height="2208"/>
+        <image name="UI 04" width="1242.239990234375" height="2208"/>
+        <image name="UI 05" width="1242.239990234375" height="2208.239990234375"/>
+        <image name="UI 06" width="1242.239990234375" height="2208"/>
+        <image name="UI 07" width="1242.239990234375" height="2208"/>
+        <image name="UI 08" width="1242.239990234375" height="2208"/>
+        <image name="UI 09" width="1242.239990234375" height="2208"/>
         <image name="beast.JPG" width="2448" height="3264"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="SZQ-uz-d0U"/>
-        <segue reference="kHX-eL-fvB"/>
+        <segue reference="F8D-aA-Ajk"/>
         <segue reference="4dY-el-gvt"/>
         <segue reference="2vn-jf-fOx"/>
     </inferredMetricsTieBreakers>
