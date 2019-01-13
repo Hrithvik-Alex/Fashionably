@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BD825881F871F2A8B1BCB14 /* Pods_Fashionably.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ABA8741411F9C0ED92F1D25 /* Pods_Fashionably.framework */; };
+		63986EC221EB5F4D0062C833 /* beast.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 63986EC121EB5F4D0062C833 /* beast.JPG */; };
+		81103F3A21EB1115001C7BFE /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81103F3921EB1115001C7BFE /* MenuViewController.swift */; };
+		81103F3C21EB13F2001C7BFE /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81103F3B21EB13F2001C7BFE /* WelcomeViewController.swift */; };
+		81103F3E21EB1ED5001C7BFE /* OutfitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81103F3D21EB1ED5001C7BFE /* OutfitViewController.swift */; };
+		8157829321EA814F00B2F911 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8157829221EA814F00B2F911 /* AppDelegate.swift */; };
+		8157829521EA814F00B2F911 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8157829421EA814F00B2F911 /* WeatherViewController.swift */; };
+		8157829821EA814F00B2F911 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8157829621EA814F00B2F911 /* Main.storyboard */; };
+		8157829A21EA815000B2F911 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8157829921EA815000B2F911 /* Assets.xcassets */; };
+		8157829D21EA815000B2F911 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8157829B21EA815000B2F911 /* LaunchScreen.storyboard */; };
+		815782A821EA8D1400B2F911 /* Clothing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815782A721EA8D1400B2F911 /* Clothing.swift */; };
+		815782AA21EAB66000B2F911 /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815782A921EAB66000B2F911 /* WeatherDataModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A66355F074631ED6DC965F7 /* Pods-Fashionably.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fashionably.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fashionably/Pods-Fashionably.release.xcconfig"; sourceTree = "<group>"; };
+		5A7A9D1657203A6A0C20A377 /* Pods-Fashionably.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fashionably.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fashionably/Pods-Fashionably.debug.xcconfig"; sourceTree = "<group>"; };
+		63986EC121EB5F4D0062C833 /* beast.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beast.JPG; path = ../../Clothing/beast.JPG; sourceTree = "<group>"; };
+		81103F3921EB1115001C7BFE /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		81103F3B21EB13F2001C7BFE /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		81103F3D21EB1ED5001C7BFE /* OutfitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutfitViewController.swift; sourceTree = "<group>"; };
+		8157828F21EA814F00B2F911 /* Fashionably.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fashionably.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8157829221EA814F00B2F911 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8157829421EA814F00B2F911 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		8157829721EA814F00B2F911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8157829921EA815000B2F911 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8157829C21EA815000B2F911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8157829E21EA815000B2F911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		815782A721EA8D1400B2F911 /* Clothing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clothing.swift; sourceTree = "<group>"; };
+		815782A921EAB66000B2F911 /* WeatherDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataModel.swift; sourceTree = "<group>"; };
+		8ABA8741411F9C0ED92F1D25 /* Pods_Fashionably.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fashionably.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8157828C21EA814F00B2F911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD825881F871F2A8B1BCB14 /* Pods_Fashionably.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1608D05E90B5B81F8BA2DC45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8ABA8741411F9C0ED92F1D25 /* Pods_Fashionably.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8157828621EA814F00B2F911 = {
+			isa = PBXGroup;
+			children = (
+				8157829121EA814F00B2F911 /* Fashionably */,
+				8157829021EA814F00B2F911 /* Products */,
+				D6D215F8DA977D2ACCE22820 /* Pods */,
+				1608D05E90B5B81F8BA2DC45 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8157829021EA814F00B2F911 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8157828F21EA814F00B2F911 /* Fashionably.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8157829121EA814F00B2F911 /* Fashionably */ = {
+			isa = PBXGroup;
+			children = (
+				815782A621EA8CEE00B2F911 /* Controller */,
+				815782A521EA8CE400B2F911 /* View */,
+				815782A421EA8CCD00B2F911 /* Model */,
+				8157829921EA815000B2F911 /* Assets.xcassets */,
+				63986EC121EB5F4D0062C833 /* beast.JPG */,
+				8157829E21EA815000B2F911 /* Info.plist */,
+			);
+			path = Fashionably;
+			sourceTree = "<group>";
+		};
+		815782A421EA8CCD00B2F911 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				815782A721EA8D1400B2F911 /* Clothing.swift */,
+				815782A921EAB66000B2F911 /* WeatherDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		815782A521EA8CE400B2F911 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8157829B21EA815000B2F911 /* LaunchScreen.storyboard */,
+				8157829621EA814F00B2F911 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		815782A621EA8CEE00B2F911 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8157829221EA814F00B2F911 /* AppDelegate.swift */,
+				8157829421EA814F00B2F911 /* WeatherViewController.swift */,
+				81103F3921EB1115001C7BFE /* MenuViewController.swift */,
+				81103F3B21EB13F2001C7BFE /* WelcomeViewController.swift */,
+				81103F3D21EB1ED5001C7BFE /* OutfitViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D6D215F8DA977D2ACCE22820 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A7A9D1657203A6A0C20A377 /* Pods-Fashionably.debug.xcconfig */,
+				3A66355F074631ED6DC965F7 /* Pods-Fashionably.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8157828E21EA814F00B2F911 /* Fashionably */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 815782A121EA815000B2F911 /* Build configuration list for PBXNativeTarget "Fashionably" */;
+			buildPhases = (
+				FBD92A67D27C22CB42747847 /* [CP] Check Pods Manifest.lock */,
+				8157828B21EA814F00B2F911 /* Sources */,
+				8157828C21EA814F00B2F911 /* Frameworks */,
+				8157828D21EA814F00B2F911 /* Resources */,
+				54DB975776C5C8FC4E19E5B5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fashionably;
+			productName = Fashionably;
+			productReference = 8157828F21EA814F00B2F911 /* Fashionably.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8157828721EA814F00B2F911 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Hrithvik  Alex";
+				TargetAttributes = {
+					8157828E21EA814F00B2F911 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 8157828A21EA814F00B2F911 /* Build configuration list for PBXProject "Fashionably" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8157828621EA814F00B2F911;
+			productRefGroup = 8157829021EA814F00B2F911 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8157828E21EA814F00B2F911 /* Fashionably */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8157828D21EA814F00B2F911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8157829D21EA815000B2F911 /* LaunchScreen.storyboard in Resources */,
+				8157829A21EA815000B2F911 /* Assets.xcassets in Resources */,
+				8157829821EA814F00B2F911 /* Main.storyboard in Resources */,
+				63986EC221EB5F4D0062C833 /* beast.JPG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54DB975776C5C8FC4E19E5B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Fashionably/Pods-Fashionably-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fashionably/Pods-Fashionably-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBD92A67D27C22CB42747847 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fashionably-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8157828B21EA814F00B2F911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815782AA21EAB66000B2F911 /* WeatherDataModel.swift in Sources */,
+				81103F3A21EB1115001C7BFE /* MenuViewController.swift in Sources */,
+				8157829521EA814F00B2F911 /* WeatherViewController.swift in Sources */,
+				81103F3C21EB13F2001C7BFE /* WelcomeViewController.swift in Sources */,
+				815782A821EA8D1400B2F911 /* Clothing.swift in Sources */,
+				81103F3E21EB1ED5001C7BFE /* OutfitViewController.swift in Sources */,
+				8157829321EA814F00B2F911 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8157829621EA814F00B2F911 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8157829721EA814F00B2F911 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8157829B21EA815000B2F911 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8157829C21EA815000B2F911 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8157829F21EA815000B2F911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		815782A021EA815000B2F911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		815782A221EA815000B2F911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A7A9D1657203A6A0C20A377 /* Pods-Fashionably.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Fashionably/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hrithvik-Alex.Fashionably";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		815782A321EA815000B2F911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A66355F074631ED6DC965F7 /* Pods-Fashionably.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Fashionably/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hrithvik-Alex.Fashionably";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8157828A21EA814F00B2F911 /* Build configuration list for PBXProject "Fashionably" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8157829F21EA815000B2F911 /* Debug */,
+				815782A021EA815000B2F911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		815782A121EA815000B2F911 /* Build configuration list for PBXNativeTarget "Fashionably" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				815782A221EA815000B2F911 /* Debug */,
+				815782A321EA815000B2F911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8157828721EA814F00B2F911 /* Project object */;
+}
