@@ -20,6 +20,7 @@
 		815782A821EA8D1400B2F911 /* Clothing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815782A721EA8D1400B2F911 /* Clothing.swift */; };
 		815782AA21EAB66000B2F911 /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815782A921EAB66000B2F911 /* WeatherDataModel.swift */; };
 		EC204C8221EBB6B8000615B0 /* StyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC204C8121EBB6B8000615B0 /* StyleViewController.swift */; };
+		EC204C8421EBCCFC000615B0 /* BusinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC204C8321EBCCFC000615B0 /* BusinessViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		815782A921EAB66000B2F911 /* WeatherDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataModel.swift; sourceTree = "<group>"; };
 		8ABA8741411F9C0ED92F1D25 /* Pods_Fashionably.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fashionably.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC204C8121EBB6B8000615B0 /* StyleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleViewController.swift; sourceTree = "<group>"; };
+		EC204C8321EBCCFC000615B0 /* BusinessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				81103F3B21EB13F2001C7BFE /* WelcomeViewController.swift */,
 				81103F3D21EB1ED5001C7BFE /* OutfitViewController.swift */,
 				EC204C8121EBB6B8000615B0 /* StyleViewController.swift */,
+				EC204C8321EBCCFC000615B0 /* BusinessViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 				815782AA21EAB66000B2F911 /* WeatherDataModel.swift in Sources */,
 				81103F3A21EB1115001C7BFE /* MenuViewController.swift in Sources */,
 				8157829521EA814F00B2F911 /* WeatherViewController.swift in Sources */,
+				EC204C8421EBCCFC000615B0 /* BusinessViewController.swift in Sources */,
 				81103F3C21EB13F2001C7BFE /* WelcomeViewController.swift in Sources */,
 				815782A821EA8D1400B2F911 /* Clothing.swift in Sources */,
 				81103F3E21EB1ED5001C7BFE /* OutfitViewController.swift in Sources */,

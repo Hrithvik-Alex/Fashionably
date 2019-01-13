@@ -511,10 +511,10 @@
             </objects>
             <point key="canvasLocation" x="3016" y="443"/>
         </scene>
-        <!--View Controller-->
+        <!--Business View Controller-->
         <scene sceneID="em2-2t-YBe">
             <objects>
-                <viewController id="EUI-tX-Xhe" sceneMemberID="viewController">
+                <viewController id="EUI-tX-Xhe" customClass="BusinessViewController" customModule="Fashionably" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1HV-QS-3Yb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -523,6 +523,41 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0vL-fy-8dg">
+                                <rect key="frame" x="40" y="344" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="LButton2:" destination="EUI-tX-Xhe" eventType="touchUpInside" id="Pkv-c6-Muw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PqI-zw-rGZ">
+                                <rect key="frame" x="347" y="344" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="RButton2:" destination="EUI-tX-Xhe" eventType="touchUpInside" id="tUR-OF-9n9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yiH-ig-E5D">
+                                <rect key="frame" x="40" y="488" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="LButton3:" destination="EUI-tX-Xhe" eventType="touchUpInside" id="yub-Io-98V"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dyJ-CY-AWR">
+                                <rect key="frame" x="347" y="496" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="RButton3:" destination="EUI-tX-Xhe" eventType="touchUpInside" id="5WK-Pw-i61"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jH9-T4-SbB">
+                                <rect key="frame" x="347" y="637" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="RButton4:" destination="EUI-tX-Xhe" eventType="touchUpInside" id="TtH-hT-lDm"/>
+                                </connections>
+                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="em6-C0-Tcs">
                                 <rect key="frame" x="142" y="287" width="130" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -549,10 +584,37 @@
                                     <segue destination="Rdh-i1-vgg" kind="show" id="feM-Dr-q3c"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WWQ-87-Y42">
+                                <rect key="frame" x="44" y="180" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="Lbutton1:" destination="EUI-tX-Xhe" eventType="touchUpInside" id="hl4-u6-hhy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vHq-qd-VHb">
+                                <rect key="frame" x="347" y="180" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="Lbutton2:" destination="EUI-tX-Xhe" eventType="touchUpInside" id="XZr-Mt-nrI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RA5-wo-cjT">
+                                <rect key="frame" x="40" y="647" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="LButton4:" destination="EUI-tX-Xhe" eventType="touchUpInside" id="WxQ-wv-6GX"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="DWz-gU-73C"/>
                     </view>
+                    <connections>
+                        <outlet property="image1" destination="7ou-EZ-coJ" id="Qw0-y6-zLl"/>
+                        <outlet property="image2" destination="em6-C0-Tcs" id="64t-an-n4W"/>
+                        <outlet property="image3" destination="g6P-E9-AD0" id="pDw-bp-aUs"/>
+                        <outlet property="image4" destination="T13-uX-RZi" id="WLy-CM-FHb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gQv-c7-7Md" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -587,7 +649,6 @@
         <image name="UI 09" width="1242.239990234375" height="2208"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="6R6-Om-8ET"/>
         <segue reference="feM-Dr-q3c"/>
         <segue reference="cHF-ap-kIN"/>
         <segue reference="xbB-7s-hPd"/>
