@@ -179,6 +179,17 @@
                                     <segue destination="pR1-gP-DxC" kind="show" id="kHX-eL-fvB"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cBe-Z5-CIN">
+                                <rect key="frame" x="71" y="331" width="272" height="151"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sO6-kc-YHi">
+                                <rect key="frame" x="71" y="330" width="272" height="151"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="addClothingButtonPressed:" destination="1cQ-rp-onC" eventType="touchUpInside" id="1Bh-LI-4H8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="mxj-Vi-h2M"/>
@@ -348,7 +359,7 @@
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="2905.7971014492755" y="-36.684782608695656"/>
+            <point key="canvasLocation" x="3339" y="-54"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="em2-2t-YBe">
@@ -391,13 +402,13 @@
         </scene>
     </scenes>
     <resources>
-        <image name="UI 03" width="1242.239990234375" height="2208"/>
-        <image name="UI 04" width="1242.239990234375" height="2208"/>
-        <image name="UI 05" width="1242.239990234375" height="2208.239990234375"/>
-        <image name="UI 06" width="1242.239990234375" height="2208"/>
-        <image name="UI 07" width="1242.239990234375" height="2208"/>
-        <image name="UI 08" width="1242.239990234375" height="2208"/>
-        <image name="UI 09" width="1242.239990234375" height="2208"/>
+        <image name="UI 03" width="5176" height="9200"/>
+        <image name="UI 04" width="5176" height="9200"/>
+        <image name="UI 05" width="5176" height="9201"/>
+        <image name="UI 06" width="5176" height="9200"/>
+        <image name="UI 07" width="5176" height="9200"/>
+        <image name="UI 08" width="5176" height="9200"/>
+        <image name="UI 09" width="5176" height="9200"/>
         <image name="beast.JPG" width="2448" height="3264"/>
     </resources>
     <inferredMetricsTieBreakers>
